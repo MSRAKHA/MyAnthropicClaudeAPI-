@@ -28,7 +28,7 @@ if uploaded_file is not None:
         st.image(image, caption= 'Uploaded Image.', use_column_width=True)
 st.html("""<h7 style="text-align:left; color:#0F75BC;">Enter your prompt here:</h7>""")
 
-prompt = st.text_area("", heigh=250)
+prompt = st.text_area("", height=250)
 
 if st.button("Generate Response"):
     if not prompt:
