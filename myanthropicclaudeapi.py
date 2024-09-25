@@ -3,7 +3,7 @@ import anthropic
 from PIL import Image
 import lo
 import base64
-st.set_page_config(page_title="Claude API Chatbot", page_icon-"", layout="wide")
+st.set_page_config(page_title="Claude API Chatbot", page_icon=":tada:", layout="wide")
 st.markdown("""
 <style>
 .stButton>button {
