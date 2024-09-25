@@ -38,7 +38,7 @@ if st.button("Generate Response"):
         response = client.messages.create(
              model="claude-3-5-sonnnet-20240620",
             messages =[{"role":"user","content":prompt}],
-            max_token=4000
+            max_tokens=4000
         )
         st.write(response.content[0].text)
         
