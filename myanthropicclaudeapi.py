@@ -34,7 +34,7 @@ if st.button("Generate Response"):
     if not prompt:
         st.error("Prompt is required")
     else:
-        client = anthropic.Anthropic(api_key="sk-ant-api03-U-TIINSgIqvl4IVRAxm8HsP-bTtWJKXnhL48wWgN3NWUSNhX_mayCShV8sYuHh0kU-NXU5YbIZVEy9QcP1N30A-3pEMkgAA")
+        client = anthropic.Anthropic(api_key="Bearer sk-ant-api03-U-TIINSgIqvl4IVRAxm8HsP-bTtWJKXnhL48wWgN3NWUSNhX_mayCShV8sYuHh0kU-NXU5YbIZVEy9QcP1N30A-3pEMkgAA")
         response = client.messages.create(
              model="claude-3-5-sonnnet-20240620",
             messages =[{"role":"user","content":prompt}],
