@@ -34,8 +34,8 @@ if st.button("Generate Response"):
     if not prompt:
         st.error("Prompt is required")
     else:
-    client = anthropic.Anthropic(api_key="sk-ant-api03-U-TIINSgIqvl4IVRAxm8HsP-bTtWJKXnhL48wWgN3NWUSNhX_mayCShV8sYuHh0kU-NXU5YbIZVEy9QcP1N30A-3pEMkgAA")
-    messages = []
+        client = anthropic.Anthropic(api_key="sk-ant-api03-U-TIINSgIqvl4IVRAxm8HsP-bTtWJKXnhL48wWgN3NWUSNhX_mayCShV8sYuHh0kU-NXU5YbIZVEy9QcP1N30A-3pEMkgAA")
+        messages = []
 
     if uploaded_file:
        file_bytes=uploaded_file.getvalue()
