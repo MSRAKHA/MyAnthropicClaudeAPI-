@@ -40,7 +40,7 @@ if st.button("Generate Response"):
             messages =[{"role":"user","content":prompt}],
             max_token=4000
         )
-          st.write(response.content[0].text)
+        st.write(response.content[0].text)
         
     #     messages = []
 
