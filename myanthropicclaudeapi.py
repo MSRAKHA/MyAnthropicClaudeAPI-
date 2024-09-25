@@ -1,7 +1,7 @@
 import streamlit as st 
 import anthropic 
 from PIL import Image
-import lo
+import os
 import base64
 st.set_page_config(page_title="Claude API Chatbot", page_icon=":tada:", layout="wide")
 st.markdown("""
