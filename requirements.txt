@@ -1,0 +1,8 @@
+streamlit
+anthropic
+python-dotenv
+requests
+pillow
+google-generativeai
+numpy
+bcrypt
